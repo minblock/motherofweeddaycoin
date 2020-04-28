@@ -1,41 +1,41 @@
-Motherofweeddaycoin Core
+Litecoin Core
 =============
 
 Setup
 ---------------------
-Motherofweeddaycoin Core is the original Motherofweeddaycoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Motherofweeddaycoin transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Litecoin Core is the original Litecoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Litecoin transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Motherofweeddaycoin Core, visit [motherofweeddaycoin.org](https://motherofweeddaycoin.org/).
+To download Litecoin Core, visit [litecoin.org](https://litecoin.org/).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Motherofweeddaycoin Core on your native platform.
+The following are some helpful notes on how to run Litecoin Core on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/motherofweeddaycoin-qt` (GUI) or
-- `bin/motherofweeddaycoind` (headless)
+- `bin/litecoin-qt` (GUI) or
+- `bin/litecoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run motherofweeddaycoin-qt.exe.
+Unpack the files into a directory, and then run litecoin-qt.exe.
 
 ### macOS
 
-Drag Motherofweeddaycoin Core to your applications folder, and then run Motherofweeddaycoin Core.
+Drag Litecoin Core to your applications folder, and then run Litecoin Core.
 
 ### Need Help?
 
-* See the documentation at the [Motherofweeddaycoin Wiki](https://motherofweeddaycoin.info/)
+* See the documentation at the [Litecoin Wiki](https://litecoin.info/)
 for help and more information.
-* Ask for help on [#motherofweeddaycoin](http://webchat.freenode.net?channels=motherofweeddaycoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=motherofweeddaycoin).
-* Ask for help on the [MotherofweeddaycoinTalk](https://motherofweeddaycointalk.io/) forums, in the [Technical Support section](https://motherofweeddaycointalk.io/c/technical-support).
+* Ask for help on [#litecoin](http://webchat.freenode.net?channels=litecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=litecoin).
+* Ask for help on the [LitecoinTalk](https://litecointalk.io/) forums, in the [Technical Support section](https://litecointalk.io/c/technical-support).
 
 Building
 ---------------------
-The following are developer notes on how to build Motherofweeddaycoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Litecoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -48,7 +48,7 @@ The following are developer notes on how to build Motherofweeddaycoin Core on yo
 
 Development
 ---------------------
-The Motherofweeddaycoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Litecoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Productivity Notes](productivity.md)
@@ -65,8 +65,8 @@ The Motherofweeddaycoin repo's [root README](/README.md) contains relevant infor
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [MotherofweeddaycoinTalk](https://motherofweeddaycointalk.io/) forums.
-* Discuss general Motherofweeddaycoin development on #motherofweeddaycoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=motherofweeddaycoin-dev.
+* Discuss on the [LitecoinTalk](https://litecointalk.io/) forums.
+* Discuss general Litecoin development on #litecoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=litecoin-dev.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

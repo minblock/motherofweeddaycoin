@@ -38,17 +38,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-Build Motherofweeddaycoin Core
+Build Litecoin Core
 ------------------------
 
-1. Clone the Motherofweeddaycoin Core source code:
+1. Clone the Litecoin Core source code:
 
-        git clone https://github.com/motherofweeddaycoin-project/motherofweeddaycoin
-        cd motherofweeddaycoin
+        git clone https://github.com/litecoin-project/litecoin
+        cd litecoin
 
-2.  Build Motherofweeddaycoin Core:
+2.  Build Litecoin Core:
 
-    Configure and build the headless Motherofweeddaycoin Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless Litecoin Core binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -70,13 +70,13 @@ Build Motherofweeddaycoin Core
 
     or
 
-        cd ~/motherofweeddaycoin/src
-        cp motherofweeddaycoind /usr/local/bin/
-        cp motherofweeddaycoin-cli /usr/local/bin/
+        cd ~/litecoin/src
+        cp litecoind /usr/local/bin/
+        cp litecoin-cli /usr/local/bin/
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, Motherofweeddaycoin Core may be compiled in
+When the intention is to run only a P2P node without a wallet, Litecoin Core may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -88,28 +88,28 @@ Mining is also possible in disable-wallet mode using the `getblocktemplate` RPC 
 Running
 -------
 
-Motherofweeddaycoin Core is now available at `./src/motherofweeddaycoind`
+Litecoin Core is now available at `./src/litecoind`
 
 Before running, you may create an empty configuration file:
 
-    mkdir -p "/Users/${USER}/Library/Application Support/Motherofweeddaycoin"
+    mkdir -p "/Users/${USER}/Library/Application Support/Litecoin"
 
-    touch "/Users/${USER}/Library/Application Support/Motherofweeddaycoin/motherofweeddaycoin.conf"
+    touch "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Motherofweeddaycoin/motherofweeddaycoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
 
-The first time you run motherofweeddaycoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run litecoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Motherofweeddaycoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Litecoin/debug.log
 
 Other commands:
 -------
 
-    ./src/motherofweeddaycoind -daemon # Starts the motherofweeddaycoin daemon.
-    ./src/motherofweeddaycoin-cli --help # Outputs a list of command-line options.
-    ./src/motherofweeddaycoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/litecoind -daemon # Starts the litecoin daemon.
+    ./src/litecoin-cli --help # Outputs a list of command-line options.
+    ./src/litecoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

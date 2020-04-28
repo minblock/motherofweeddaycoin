@@ -1445,7 +1445,7 @@ static void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Motherofweeddaycoin " + FormatFullVersion();
+        std::string strDesc = "Litecoin " + FormatFullVersion();
 
         do {
 #ifndef UPNPDISCOVER_SUCCESS

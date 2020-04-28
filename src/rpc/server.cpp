@@ -256,7 +256,7 @@ UniValue stop(const JSONRPCRequest& jsonRequest)
     if (jsonRequest.fHelp || jsonRequest.params.size() > 1)
         throw std::runtime_error(
             RPCHelpMan{"stop",
-                "\nStop Motherofweeddaycoin server.",
+                "\nStop Litecoin server.",
                 {},
                 RPCResults{},
                 RPCExamples{""},
@@ -267,7 +267,7 @@ UniValue stop(const JSONRPCRequest& jsonRequest)
     if (jsonRequest.params[0].isNum()) {
         MilliSleep(jsonRequest.params[0].get_int());
     }
-    return "Motherofweeddaycoin server stopping";
+    return "Litecoin server stopping";
 }
 
 static UniValue uptime(const JSONRPCRequest& jsonRequest)
@@ -584,7 +584,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> motherofweeddaycoin-cli " + methodname + " " + args + "\n";
+    return "> litecoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)
