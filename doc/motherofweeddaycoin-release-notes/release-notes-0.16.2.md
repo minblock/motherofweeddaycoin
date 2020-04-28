@@ -7,7 +7,7 @@ as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/motherofweeddaycoin-project/motherofweeddaycoin/issues>
+  <https://github.com/minblock/motherofweeddaycoin/issues>
 
 To receive security and update notifications, please subscribe to:
 

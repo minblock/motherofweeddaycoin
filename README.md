@@ -1,7 +1,7 @@
 Motherofweeddaycoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/motherofweeddaycoin-project/motherofweeddaycoin.svg?branch=master)](https://travis-ci.org/motherofweeddaycoin-project/motherofweeddaycoin)
+[![Build Status](https://travis-ci.org/minblock/motherofweeddaycoin.svg?branch=master)](https://travis-ci.org/minblock/motherofweeddaycoin)
 
 https://motherofweeddaycoin.org
 
@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/motherofweeddaycoin-project/motherofweeddaycoin/tags) are created
+completely stable. [Tags](https://github.com/minblock/motherofweeddaycoin/tags) are created
 regularly to indicate new official, stable release versions of Motherofweeddaycoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)

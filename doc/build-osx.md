@@ -43,7 +43,7 @@ Build Motherofweeddaycoin Core
 
 1. Clone the Motherofweeddaycoin Core source code:
 
-        git clone https://github.com/motherofweeddaycoin-project/motherofweeddaycoin
+        git clone https://github.com/minblock/motherofweeddaycoin
         cd motherofweeddaycoin
 
 2.  Build Motherofweeddaycoin Core:

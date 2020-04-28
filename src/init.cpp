@@ -555,7 +555,7 @@ void SetupServerArgs()
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/motherofweeddaycoin-project/motherofweeddaycoin>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/minblock/motherofweeddaycoin>";
     const std::string URL_WEBSITE = "<https://motherofweeddaycoin.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
