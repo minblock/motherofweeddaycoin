@@ -8,7 +8,7 @@ recommended to upgrade to this version as soon as possible.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/minblock/motherofweeddaycoin/issues>
+  <https://github.com/motherofweeddaycoin-project/motherofweeddaycoin/issues>
 
 Upgrading and downgrading
 =========================
